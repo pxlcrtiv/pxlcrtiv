@@ -6,7 +6,7 @@
   <ul align="left" style="list-style: none">
     <summary>
       <h1>
-        Hey Stranger My name is Emmanuel Eddie - Nkwoh
+        My name is Emmanuel Eddie - Nkwoh
       </h1>
     </summary>
   </ul>
