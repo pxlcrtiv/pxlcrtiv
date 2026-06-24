@@ -1,11 +1,6 @@
-![My name is Emmanuel Eddie - Nkwoh](https://static.wixstatic.com/media/53fad0_ce0704caa0174d6aa9b2b8101a62fa77~mv2.gif)
+(https://static.wixstatic.com/media/53fad0_ce0704caa0174d6aa9b2b8101a62fa77~mv2.gif)
 
 ![Profile views](https://komarev.com/ghpvc/?username=pxlcrtiv&label=Profile%20views&color=0e75b6&style=flat)
-
- **<h3 align="left">🚀 Passionate fullstack AI/ML developer, creating robust and scalable applications and AI pipelines. Skilled in both front-end and back-end technologies, with a keen eye for user experience and performance optimization.
- **<h3 align="left">Skills</h3>**
-
-
 
  **<h3 align="left">GitHub Stats</h3>**
 
