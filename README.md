@@ -35,6 +35,9 @@ bar is the point.
 <a href="https://github.com/pxlcrtiv/slither-chat" target="_blank">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=pxlcrtiv&repo=slither-chat&theme=radical&hide_border=true" />
 </a>
+<a href="https://github.com/pxlcrtiv/position-guard" target="_blank">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=pxlcrtiv&repo=position-guard&theme=radical&hide_border=true" />
+</a>
 <a href="https://github.com/pxlcrtiv/agent-lab" target="_blank">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=pxlcrtiv&repo=agent-lab&theme=radical&hide_border=true" />
 </a>
@@ -46,16 +49,18 @@ bar is the point.
 |---|---|---|
 | [**model-ledger**](https://github.com/pxlcrtiv/model-ledger) | On-chain provenance for ML models — hash a Hugging Face manifest, register it, let anyone verify it. No trusted third party. | Solidity · Foundry · Python · ethers.js |
 | [**slither-chat**](https://github.com/pxlcrtiv/slither-chat) | Smart-contract **audit copilot**: explains every Slither finding in plain English (offline KB, on-device HF zero-shot model, or any LLM), with patches, SVG reports, and a benchmark vs. real audited contracts (recall 0.97). | Python · Slither · Hugging Face · transformers |
+| [**position-guard**](https://github.com/pxlcrtiv/position-guard) | DeFi **health monitor**: watches Aave v3 / Compound v3 positions via The Graph subgraphs + CoinGecko, computes health factors, and pushes LLM-written plain-English alerts ("your ETH collateral is at 1.12 HF…") — Telegram optional, keyless web-preview demo by default. | Python · The Graph · httpx · SQLite |
 | [**agent-lab**](https://github.com/pxlcrtiv/agent-lab) | Zero-dependency AI agent framework in pure Python — tool use, persistent memory, retries, guards. | Python |
+| [**whale-watch-tg**](https://github.com/pxlcrtiv/whale-watch-tg) | Telegram whale tracker — subscribe to any wallet, instant alerts with LLM summaries ("3,000 ETH to Binance — likely sell pressure"), zero-key demo. | Python · python-telegram-bot · web3.py |
 | [**KARYX**](https://github.com/pxlcrtiv/KARYX) | Military-grade edge AI model optimization & deployment suite. | Python · ONNX |
 | [**hive**](https://github.com/pxlcrtiv/hive) | Multi-agent harness for production AI. | Python |
 | [**mobile-profile-shell**](https://github.com/pxlcrtiv/mobile-profile-shell) | A phone-OS style portfolio — React + Vite + Tailwind + shadcn. | TypeScript · React · Tailwind |
-| [**whale-watch-tg**](https://github.com/pxlcrtiv/whale-watch-tg) | Telegram whale tracker — subscribe to any wallet, instant alerts with LLM summaries ("3,000 ETH to Binance — likely sell pressure"), zero-key demo. | Python · python-telegram-bot · web3.py |
 
 > Newest ships: **model-ledger** (Solidity registry + Foundry tests + Python CLI +
-> web viewer, Sepolia-ready) and **slither-chat** (56 tests passing, benchmarked
-> against a 1,748-contract HF corpus) — both feature-complete, documented, and
-> contribution-ready.
+> web viewer, Sepolia-ready), **slither-chat** (56 tests passing, benchmarked
+> against a 1,748-contract HF corpus), and **position-guard** (DeFi health
+> monitor — 52 tests, golden health-factor math, keyless demo) — all
+> feature-complete, documented, and contribution-ready.
 
 ---
 
