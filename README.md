@@ -1,6 +1,118 @@
-![](https://static.wixstatic.com/media/53fad0_ce0704caa0174d6aa9b2b8101a62fa77~mv2.gif)
+<div align="center">
 
-![Profile views](https://komarev.com/ghpvc/?username=pxlcrtiv&label=Profile%20views&color=0e75b6&style=flat)
+# 👋 pxlcrtiv
 
- **<h3 align="left">Take a look at all my public repos you'll know why i'm 10X</h3>**
+### AI/ML × Blockchain Engineer
+*I build production tooling where machine learning meets smart contracts — and ship a commit every single day.*
 
+[![Profile views](https://komarev.com/ghpvc/?username=pxlcrtiv&label=profile%20views&color=0e75b6&style=flat)](https://github.com/pxlcrtiv)
+[![Open to work](https://img.shields.io/badge/Open%20to-SWE%20·%20AI%2FML%20·%20Web3%20roles-00C853?style=flat)](https://github.com/pxlcrtiv)
+[![Daily commits](https://img.shields.io/badge/daily%20commits-%E2%9C%85-4caf50?style=flat)](https://github.com/pxlcrtiv?tab=overview)
+
+</div>
+
+---
+
+## 🧭 What I do
+
+- **AI/ML engineering** — zero-shot models at the edge, offline-first ML pipelines,
+  agent frameworks, Hugging Face ecosystems (datasets, transformers, Hub CLI).
+- **Blockchain engineering** — Solidity + Foundry smart contracts, on-chain
+  provenance, audit-ready security tooling, Sepolia deployments, ethers.js/web3.py.
+- **Full-stack glue** — Python, TypeScript, React — shipping tools that humans
+  actually run.
+
+Everything below is **open source, tested, and committed to daily** — the green
+bar is the point.
+
+---
+
+## 🚀 Featured projects
+
+<a href="https://github.com/pxlcrtiv/model-ledger" target="_blank">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=pxlcrtiv&repo=model-ledger&theme=radical&hide_border=true" />
+</a>
+<a href="https://github.com/pxlcrtiv/slither-chat" target="_blank">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=pxlcrtiv&repo=slither-chat&theme=radical&hide_border=true" />
+</a>
+<a href="https://github.com/pxlcrtiv/agent-lab" target="_blank">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=pxlcrtiv&repo=agent-lab&theme=radical&hide_border=true" />
+</a>
+<a href="https://github.com/pxlcrtiv/KARYX" target="_blank">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=pxlcrtiv&repo=KARYX&theme=radical&hide_border=true" />
+</a>
+
+| Repo | What it is | Stack |
+|---|---|---|
+| [**model-ledger**](https://github.com/pxlcrtiv/model-ledger) | On-chain provenance for ML models — hash a Hugging Face manifest, register it, let anyone verify it. No trusted third party. | Solidity · Foundry · Python · ethers.js |
+| [**slither-chat**](https://github.com/pxlcrtiv/slither-chat) | Smart-contract **audit copilot**: explains every Slither finding in plain English (offline KB, on-device HF zero-shot model, or any LLM), with patches, SVG reports, and a benchmark vs. real audited contracts (recall 0.97). | Python · Slither · Hugging Face · transformers |
+| [**agent-lab**](https://github.com/pxlcrtiv/agent-lab) | Zero-dependency AI agent framework in pure Python — tool use, persistent memory, retries, guards. | Python |
+| [**KARYX**](https://github.com/pxlcrtiv/KARYX) | Military-grade edge AI model optimization & deployment suite. | Python · ONNX |
+| [**hive**](https://github.com/pxlcrtiv/hive) | Multi-agent harness for production AI. | Python |
+| [**mobile-profile-shell**](https://github.com/pxlcrtiv/mobile-profile-shell) | A phone-OS style portfolio — React + Vite + Tailwind + shadcn. | TypeScript · React · Tailwind |
+
+> Newest ships: **model-ledger** (Solidity registry + Foundry tests + Python CLI +
+> web viewer, Sepolia-ready) and **slither-chat** (56 tests passing, benchmarked
+> against a 1,748-contract HF corpus) — both feature-complete, documented, and
+> contribution-ready.
+
+---
+
+## 🧠 AI/ML experience
+
+- **Hugging Face zero-shot classification in production pipelines** — DeBERTa-v3
+  vulnerable-class tagger running on-device (CPU, no API key) inside
+  [slither-chat](https://github.com/pxlcrtiv/slither-chat).
+- **Benchmarking ML pipelines** — precision/recall/F1 scoring against real-world
+  ground truth from the HF Hub (recall **0.968** on Slither-audited contracts).
+- **Agent frameworks** — tool use, function calling, memory, retries
+  ([agent-lab](https://github.com/pxlcrtiv/agent-lab), [hive](https://github.com/pxlcrtiv/hive)).
+- **Edge model optimization** ([KARYX](https://github.com/pxlcrtiv/KARYX)).
+
+## ⛓️ Blockchain experience
+
+- **Smart contracts with Foundry** — zero-dependency Solidity 0.8.26, 18/18
+  tests incl. fuzzing and golden cross-language hashes ([model-ledger](https://github.com/pxlcrtiv/model-ledger)).
+- **AI + Web3 intersection** — content-addressed model provenance on-chain,
+  AI-assisted security auditing ([slither-chat](https://github.com/pxlcrtiv/slither-chat)).
+- **Contract security** — Slither-based static analysis, patch-diff generation,
+  severity triage.
+- **Tooling** — web3.py, ethereumjs/ethers.js, Sepolia deploy + Etherscan verify
+  scripts, local anvil chains.
+
+---
+
+## 📊 GitHub activity
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=pxlcrtiv&show_icons=true&hide=contribs&theme=radical&hide_border=true&count_private=true" alt="GitHub stats" height="170" />
+  <img src="https://streak-stats.demolab.com/?user=pxlcrtiv&theme=radical&hide_border=true" alt="GitHub streak" height="170" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pxlcrtiv&layout=compact&theme=radical&hide_border=true" alt="Top languages" height="150" />
+  <br/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=pxlcrtiv&theme=github-dark&hide_border=true" alt="Contribution graph" />
+</div>
+
+---
+
+## 📌 How I work
+
+- **Daily commits, small shippable deltas** — every repo carries a day-by-day
+  roadmap; the history bar stays green because the work is real.
+- **Tests before claims** — every numeric claim in my READMEs is reproduced by a
+  command in the repo (benchmarks, golden fixtures, live demo transcripts).
+- **Honest engineering** — no empty commits, no exaggerated badges.
+
+---
+
+## 📬 Let's connect
+
+- 💼 Open to **Software Engineering / AI-ML / Web3 roles** — fully remote or
+  EU relocation.
+- 📖 Read the code: [github.com/pxlcrtiv](https://github.com/pxlcrtiv)
+- ✉️ Best way to reach me: open an issue or GitHub discussion on any repo —
+  or star one of the projects above, it genuinely helps.
+
+<div align="center">
+  <i>Liked what you see? ⭐ Star a repo. It's the best feedback a solo builder gets.</i>
+</div>
