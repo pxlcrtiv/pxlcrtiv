@@ -50,6 +50,7 @@ bar is the point.
 | [**KARYX**](https://github.com/pxlcrtiv/KARYX) | Military-grade edge AI model optimization & deployment suite. | Python · ONNX |
 | [**hive**](https://github.com/pxlcrtiv/hive) | Multi-agent harness for production AI. | Python |
 | [**mobile-profile-shell**](https://github.com/pxlcrtiv/mobile-profile-shell) | A phone-OS style portfolio — React + Vite + Tailwind + shadcn. | TypeScript · React · Tailwind |
+| [**whale-watch-tg**](https://github.com/pxlcrtiv/whale-watch-tg) | Telegram whale tracker — subscribe to any wallet, instant alerts with LLM summaries ("3,000 ETH to Binance — likely sell pressure"), zero-key demo. | Python · python-telegram-bot · web3.py |
 
 > Newest ships: **model-ledger** (Solidity registry + Foundry tests + Python CLI +
 > web viewer, Sepolia-ready) and **slither-chat** (56 tests passing, benchmarked
