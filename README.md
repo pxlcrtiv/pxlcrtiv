@@ -35,6 +35,9 @@ bar is the point.
 <a href="https://github.com/pxlcrtiv/slither-chat" target="_blank">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=pxlcrtiv&repo=slither-chat&theme=radical&hide_border=true" />
 </a>
+<a href="https://github.com/pxlcrtiv/agent-wallet" target="_blank">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=pxlcrtiv&repo=agent-wallet&theme=radical&hide_border=true" />
+</a>
 <a href="https://github.com/pxlcrtiv/position-guard" target="_blank">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=pxlcrtiv&repo=position-guard&theme=radical&hide_border=true" />
 </a>
@@ -49,6 +52,7 @@ bar is the point.
 |---|---|---|
 | [**model-ledger**](https://github.com/pxlcrtiv/model-ledger) | On-chain provenance for ML models — hash a Hugging Face manifest, register it, let anyone verify it. No trusted third party. | Solidity · Foundry · Python · ethers.js |
 | [**slither-chat**](https://github.com/pxlcrtiv/slither-chat) | Smart-contract **audit copilot**: explains every Slither finding in plain English (offline KB, on-device HF zero-shot model, or any LLM), with patches, SVG reports, and a benchmark vs. real audited contracts (recall 0.97). | Python · Slither · Hugging Face · transformers |
+| [**agent-wallet**](https://github.com/pxlcrtiv/agent-wallet) | AI agent for **safe testnet transactions** (built on my own agent-lab): inspects a wallet, checks allowances, dry-runs the tx via eth_call, and explains risk in plain English before anything is signed — Sepolia only, mainnet default-off, 67 offline tests. | Python · agent-lab · web3.py · click |
 | [**chain-scout**](https://github.com/pxlcrtiv/chain-scout) | AI **wallet risk scanner**: paste any Ethereum address → plain-English risk report — rug-pulled tokens, dangerous approvals, holder concentration, estimated PnL — transparent weighted score, keyless demo, testnet-first. | Python · Streamlit · web3.py · CoinGecko |
 | [**position-guard**](https://github.com/pxlcrtiv/position-guard) | DeFi **health monitor**: watches Aave v3 / Compound v3 positions via The Graph subgraphs + CoinGecko, computes health factors, and pushes LLM-written plain-English alerts ("your ETH collateral is at 1.12 HF…") — Telegram optional, keyless web-preview demo by default. | Python · The Graph · httpx · SQLite |
 | [**agent-lab**](https://github.com/pxlcrtiv/agent-lab) | Zero-dependency AI agent framework in pure Python — tool use, persistent memory, retries, guards. | Python |
@@ -59,7 +63,9 @@ bar is the point.
 
 > Newest ships: **model-ledger** (Solidity registry + Foundry tests + Python CLI +
 > web viewer, Sepolia-ready), **slither-chat** (56 tests passing, benchmarked
-> against a 1,748-contract HF corpus), and **position-guard** (DeFi health
+> against a 1,748-contract HF corpus), **agent-wallet** (AI agent for safe
+> testnet transactions — agent-lab core, dry-run + plain-English risk notes,
+> mainnet default-off, 67 offline tests), and **position-guard** (DeFi health
 > monitor — 52 tests, golden health-factor math, keyless demo) — all
 > feature-complete, documented, and contribution-ready.
 
