@@ -55,6 +55,8 @@ bar is the point.
 | [**trait-gpt**](https://github.com/pxlcrtiv/trait-gpt) | Rarity score + AI-written descriptions for any NFT collection — trait statistics, CLIP zero-shot attribute tags, BLIP captions, Streamlit gallery, all CPU, zero keys. | Python · transformers · Streamlit |
 | [**hf-hub-lint**](https://github.com/pxlcrtiv/hf-hub-lint) | Lint Hugging Face Hub repos: model-card completeness, license declaration, metadata hygiene, config sanity — weighted 0–100 score with actionable fixes, live Hub or offline fixtures, zero keys, zero runtime deps. | Python · pure stdlib |
 | [**inject-scout**](https://github.com/pxlcrtiv/inject-scout) | On-device prompt injection & jailbreak scanner for LLM apps — 22 deterministic rules (leaks, role-escape, encoded payloads, indirect injection), 0–100 score, `--strict` CI gate, 29-attack golden corpus, no API keys. | Python · pure stdlib |
+| [**pocket-eval**](https://github.com/pxlcrtiv/pocket-eval) | The LLM eval harness that fits in your pocket — CPU-only, keyless, offline: perplexity + a 12-item QA mini-benchmark over a bundled DeFi/ML corpus, deterministic n-gram & seeded random baselines, optional tiny HF models (`tiny-gpt2`, `Qwen2.5-0.5B`). Real-run results table, 23 offline golden tests. | Python · pure stdlib · transformers (optional) |
+| [**embed-playground**](https://github.com/pxlcrtiv/embed-playground) | Compare lexical (TF-IDF) vs dense (sentence-transformers) vs hybrid (RRF) search on a bundled 36-doc DeFi/Web3 corpus — 16-query recall@5/MRR benchmark (lexical 75% vs dense 94%, real runs), Streamlit playground, zero keys. | Python · pure stdlib · sentence-transformers · Streamlit |
 | [**chain-chat**](https://github.com/pxlcrtiv/chain-chat) | Ask on-chain history in plain English ("which token moved the most yesterday?") — schema-aware LLM → SQL over a bundled DuckDB/parquet snapshot. Zero keys, offline demo, 65 tests, Daily Green automation. | Python · DuckDB · Streamlit · NL→SQL |
 | [**agent-wallet**](https://github.com/pxlcrtiv/agent-wallet) | AI agent for **safe testnet transactions** (built on my own agent-lab): inspects a wallet, checks allowances, dry-runs the tx via eth_call, and explains risk in plain English before anything is signed — Sepolia only, mainnet default-off, 67 offline tests. | Python · agent-lab · web3.py · click |
 | [**chain-scout**](https://github.com/pxlcrtiv/chain-scout) | AI **wallet risk scanner**: paste any Ethereum address → plain-English risk report — rug-pulled tokens, dangerous approvals, holder concentration, estimated PnL — transparent weighted score, keyless demo, testnet-first. | Python · Streamlit · web3.py · CoinGecko |
@@ -71,8 +73,11 @@ bar is the point.
 > testnet transactions — agent-lab core, dry-run + plain-English risk notes,
 > mainnet default-off, 67 offline tests), **position-guard** (DeFi health
 > monitor — 52 tests, golden health-factor math, keyless demo),
-> **hf-hub-lint** (HF Hub repo linter) and **inject-scout** (prompt-injection
-> scanner — 20 tests, 27/29 attack-corpus recall) — all feature-complete,
+> **hf-hub-lint** (HF Hub repo linter), **inject-scout** (prompt-injection
+> scanner — 20 tests, 27/29 attack-corpus recall), **pocket-eval** (keyless
+> CPU LLM eval harness — real-run table: n-gram 83% vs tiny-gpt2 17% on the
+> bundled mini-benchmark) and **embed-playground** (lexical vs dense search —
+> recall@5 75% vs 94% on the bundled DeFi/Web3 benchmark) — all feature-complete,
 > documented, and contribution-ready.
 
 ---
