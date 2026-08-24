@@ -57,6 +57,7 @@ bar is the point.
 | [**inject-scout**](https://github.com/pxlcrtiv/inject-scout) | On-device prompt injection & jailbreak scanner for LLM apps — 22 deterministic rules (leaks, role-escape, encoded payloads, indirect injection), 0–100 score, `--strict` CI gate, 29-attack golden corpus, no API keys. | Python · pure stdlib |
 | [**pocket-eval**](https://github.com/pxlcrtiv/pocket-eval) | The LLM eval harness that fits in your pocket — CPU-only, keyless, offline: perplexity + a 12-item QA mini-benchmark over a bundled DeFi/ML corpus, deterministic n-gram & seeded random baselines, optional tiny HF models (`tiny-gpt2`, `Qwen2.5-0.5B`). Real-run results table, 23 offline golden tests. | Python · pure stdlib · transformers (optional) |
 | [**embed-playground**](https://github.com/pxlcrtiv/embed-playground) | Compare lexical (TF-IDF) vs dense (sentence-transformers) vs hybrid (RRF) search on a bundled 36-doc DeFi/Web3 corpus — 16-query recall@5/MRR benchmark (lexical 75% vs dense 94%, real runs), Streamlit playground, zero keys. | Python · pure stdlib · sentence-transformers · Streamlit |
+| [**card-forge**](https://github.com/pxlcrtiv/card-forge) | Forge complete Hugging Face model cards from config facts — architecture → task inference, honest parameter estimates, license detection, A–D documentation score, config diffing between revisions (live Hub fetch optional). 26 offline golden tests. | Python · pure stdlib |
 | [**chain-chat**](https://github.com/pxlcrtiv/chain-chat) | Ask on-chain history in plain English ("which token moved the most yesterday?") — schema-aware LLM → SQL over a bundled DuckDB/parquet snapshot. Zero keys, offline demo, 65 tests, Daily Green automation. | Python · DuckDB · Streamlit · NL→SQL |
 | [**agent-wallet**](https://github.com/pxlcrtiv/agent-wallet) | AI agent for **safe testnet transactions** (built on my own agent-lab): inspects a wallet, checks allowances, dry-runs the tx via eth_call, and explains risk in plain English before anything is signed — Sepolia only, mainnet default-off, 67 offline tests. | Python · agent-lab · web3.py · click |
 | [**chain-scout**](https://github.com/pxlcrtiv/chain-scout) | AI **wallet risk scanner**: paste any Ethereum address → plain-English risk report — rug-pulled tokens, dangerous approvals, holder concentration, estimated PnL — transparent weighted score, keyless demo, testnet-first. | Python · Streamlit · web3.py · CoinGecko |
@@ -76,8 +77,10 @@ bar is the point.
 > **hf-hub-lint** (HF Hub repo linter), **inject-scout** (prompt-injection
 > scanner — 20 tests, 27/29 attack-corpus recall), **pocket-eval** (keyless
 > CPU LLM eval harness — real-run table: n-gram 83% vs tiny-gpt2 17% on the
-> bundled mini-benchmark) and **embed-playground** (lexical vs dense search —
-> recall@5 75% vs 94% on the bundled DeFi/Web3 benchmark) — all feature-complete,
+> bundled mini-benchmark), **embed-playground** (lexical vs dense search —
+> recall@5 75% vs 94% on the bundled DeFi/Web3 benchmark) and **card-forge**
+> (model-card generator + config diff — 26 tests, A–D checklist score)
+> — all feature-complete,
 > documented, and contribution-ready.
 
 ---
