@@ -53,6 +53,8 @@ bar is the point.
 | [**model-ledger**](https://github.com/pxlcrtiv/model-ledger) | On-chain provenance for ML models — hash a Hugging Face manifest, register it, let anyone verify it. No trusted third party. | Solidity · Foundry · Python · ethers.js |
 | [**slither-chat**](https://github.com/pxlcrtiv/slither-chat) | Smart-contract **audit copilot**: explains every Slither finding in plain English (offline KB, on-device HF zero-shot model, or any LLM), with patches, SVG reports, and a benchmark vs. real audited contracts (recall 0.97). | Python · Slither · Hugging Face · transformers |
 | [**trait-gpt**](https://github.com/pxlcrtiv/trait-gpt) | Rarity score + AI-written descriptions for any NFT collection — trait statistics, CLIP zero-shot attribute tags, BLIP captions, Streamlit gallery, all CPU, zero keys. | Python · transformers · Streamlit |
+| [**hf-hub-lint**](https://github.com/pxlcrtiv/hf-hub-lint) | Lint Hugging Face Hub repos: model-card completeness, license declaration, metadata hygiene, config sanity — weighted 0–100 score with actionable fixes, live Hub or offline fixtures, zero keys, zero runtime deps. | Python · pure stdlib |
+| [**inject-scout**](https://github.com/pxlcrtiv/inject-scout) | On-device prompt injection & jailbreak scanner for LLM apps — 22 deterministic rules (leaks, role-escape, encoded payloads, indirect injection), 0–100 score, `--strict` CI gate, 29-attack golden corpus, no API keys. | Python · pure stdlib |
 | [**chain-chat**](https://github.com/pxlcrtiv/chain-chat) | Ask on-chain history in plain English ("which token moved the most yesterday?") — schema-aware LLM → SQL over a bundled DuckDB/parquet snapshot. Zero keys, offline demo, 65 tests, Daily Green automation. | Python · DuckDB · Streamlit · NL→SQL |
 | [**agent-wallet**](https://github.com/pxlcrtiv/agent-wallet) | AI agent for **safe testnet transactions** (built on my own agent-lab): inspects a wallet, checks allowances, dry-runs the tx via eth_call, and explains risk in plain English before anything is signed — Sepolia only, mainnet default-off, 67 offline tests. | Python · agent-lab · web3.py · click |
 | [**chain-scout**](https://github.com/pxlcrtiv/chain-scout) | AI **wallet risk scanner**: paste any Ethereum address → plain-English risk report — rug-pulled tokens, dangerous approvals, holder concentration, estimated PnL — transparent weighted score, keyless demo, testnet-first. | Python · Streamlit · web3.py · CoinGecko |
@@ -67,9 +69,11 @@ bar is the point.
 > web viewer, Sepolia-ready), **slither-chat** (56 tests passing, benchmarked
 > against a 1,748-contract HF corpus), **agent-wallet** (AI agent for safe
 > testnet transactions — agent-lab core, dry-run + plain-English risk notes,
-> mainnet default-off, 67 offline tests), and **position-guard** (DeFi health
-> monitor — 52 tests, golden health-factor math, keyless demo) — all
-> feature-complete, documented, and contribution-ready.
+> mainnet default-off, 67 offline tests), **position-guard** (DeFi health
+> monitor — 52 tests, golden health-factor math, keyless demo),
+> **hf-hub-lint** (HF Hub repo linter) and **inject-scout** (prompt-injection
+> scanner — 20 tests, 27/29 attack-corpus recall) — all feature-complete,
+> documented, and contribution-ready.
 
 ---
 
