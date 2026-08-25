@@ -28,22 +28,22 @@ Everything below is **open source, tested, and under active development**.
 ## 🚀 Featured projects
 
 <a href="https://github.com/pxlcrtiv/model-ledger" target="_blank">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=pxlcrtiv&repo=model-ledger&theme=radical&hide_border=true" />
+  <img align="center" src="https://readme-stats-fast.vercel.app/api/pin/?username=pxlcrtiv&repo=model-ledger&theme=radical&hide_border=true" />
 </a>
 <a href="https://github.com/pxlcrtiv/slither-chat" target="_blank">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=pxlcrtiv&repo=slither-chat&theme=radical&hide_border=true" />
+  <img align="center" src="https://readme-stats-fast.vercel.app/api/pin/?username=pxlcrtiv&repo=slither-chat&theme=radical&hide_border=true" />
 </a>
 <a href="https://github.com/pxlcrtiv/agent-wallet" target="_blank">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=pxlcrtiv&repo=agent-wallet&theme=radical&hide_border=true" />
+  <img align="center" src="https://readme-stats-fast.vercel.app/api/pin/?username=pxlcrtiv&repo=agent-wallet&theme=radical&hide_border=true" />
 </a>
 <a href="https://github.com/pxlcrtiv/position-guard" target="_blank">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=pxlcrtiv&repo=position-guard&theme=radical&hide_border=true" />
+  <img align="center" src="https://readme-stats-fast.vercel.app/api/pin/?username=pxlcrtiv&repo=position-guard&theme=radical&hide_border=true" />
 </a>
 <a href="https://github.com/pxlcrtiv/agent-lab" target="_blank">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=pxlcrtiv&repo=agent-lab&theme=radical&hide_border=true" />
+  <img align="center" src="https://readme-stats-fast.vercel.app/api/pin/?username=pxlcrtiv&repo=agent-lab&theme=radical&hide_border=true" />
 </a>
 <a href="https://github.com/pxlcrtiv/KARYX" target="_blank">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=pxlcrtiv&repo=KARYX&theme=radical&hide_border=true" />
+  <img align="center" src="https://readme-stats-fast.vercel.app/api/pin/?username=pxlcrtiv&repo=KARYX&theme=radical&hide_border=true" />
 </a>
 
 | Repo | What it is | Stack |
@@ -110,12 +110,12 @@ Everything below is **open source, tested, and under active development**.
 ## 📊 GitHub activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=pxlcrtiv&show_icons=true&hide=contribs&theme=radical&hide_border=true&count_private=true" alt="GitHub stats" height="170" />
-  <img src="https://streak-stats.demolab.com/?user=pxlcrtiv&theme=radical&hide_border=true" alt="GitHub streak" height="170" />
+  <img src="https://readme-stats-fast.vercel.app/api?username=pxlcrtiv&show_icons=true&hide=contribs&theme=radical&hide_border=true&count_private=true" alt="GitHub stats" height="170" />
+  <img src="https://readme-stats-fast.vercel.app/api/streak?username=pxlcrtiv&theme=radical&hide_border=true" alt="GitHub streak" height="170" />
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pxlcrtiv&layout=compact&theme=radical&hide_border=true" alt="Top languages" height="150" />
+  <img src="https://readme-stats-fast.vercel.app/api/top-langs/?username=pxlcrtiv&layout=compact&theme=radical&hide_border=true" alt="Top languages" height="150" />
   <br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=pxlcrtiv&theme=github-dark&hide_border=true" alt="Contribution graph" />
+  <img src="https://ghchart.rshah.org/pxlcrtiv" alt="Contribution graph" />
 </div>
 
 ---
